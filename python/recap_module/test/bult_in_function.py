@@ -1,0 +1,8 @@
+hight = max(10,21,13,47,99)
+print(hight)
+lowest = min(65,82,69,78)
+print(lowest)
+toral = sum([12,35,5,8,12])
+print(toral)
+count = len([10,8,43,54,90])
+print(count)

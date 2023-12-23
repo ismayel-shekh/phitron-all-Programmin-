@@ -1,0 +1,15 @@
+# Input the number of elements and the list of positive numbers
+N = int(input())
+numbers = list(map(int, input().split()))
+
+# Initialize the count of operations to 0
+count = 0
+
+# Check if all numbers are even, and if so, perform the operation
+while all(x % 2 == 0 for x in numbers):
+    for i in range(N):
+        numbers[i] //= 2
+    count += 1
+
+# Print the maximum possible number of operations that can be performed
+print(count)

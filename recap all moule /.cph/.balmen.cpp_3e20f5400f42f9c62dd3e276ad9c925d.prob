@@ -1,0 +1,1 @@
+{"name":"Local: balmen","url":"/home/ismayel/programing/recap all moule /balmen.cpp","tests":[{"id":1695205300491,"input":"4 4\n1 3 3\n1 2 4\n3 4 5\n2 4 -10","output":"1 : 0\n2 : 4\n3 : 3\n4 : -6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/ismayel/programing/recap all moule /balmen.cpp","group":"local","local":true}
